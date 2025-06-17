@@ -12,7 +12,6 @@
   - [Prerequisites](#prerequisites)
   - [Installation & Setup](#installation--setup)
 - [Running the Application](#running-the-application)
-- [Project Structure](#project-structure)
 - [License](#license)
 
 ## About The Project
@@ -139,28 +138,8 @@ Because this is a full-stack project, you must run the backend and frontend serv
     * Interact with the web application at **`http://localhost:3000`**.
     * You can view the backend's automatic API documentation at **`http://localhost:5001/docs`**.
 
-
-## Project Structure
-rhizocam/
-├── backend/
-│   ├── .env              # Holds API keys (not committed to Git)
-│   ├── main.py           # The FastAPI application logic
-│   └── requirements.txt  # Python dependencies
-│
-└── frontend/
-├── public/
-│   ├── index.html    # Main HTML file
-│   └── favicon.svg   # Application icon
-├── src/
-│   ├── components/   # Reusable React components
-│   ├── pages/        # Page-level components
-│   ├── api.js        # Axios instance for API calls
-│   ├── App.js        # Main application router
-│   └── index.js      # React entry point
-└── package.json      # Frontend dependencies and scripts
-
-
 ---
+
 ## License
 
 This project is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License. You can place the full license text in a `LICENSE.txt` file.
