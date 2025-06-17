@@ -72,7 +72,7 @@ Make sure you have the following installed on your system:
 
 1.  **Clone the repository**
     ```sh
-    git clone [https://github.com/your-username/rhizocam.git](https://github.com/your-username/rhizocam.git)
+    git clone [[https://github.com/your-username/rhizocam](https://github.com/ArianHaghtalab/RhizoCam).git]([https://github.com/your-username/rhizocam](https://github.com/ArianHaghtalab/RhizoCam).git)
     cd rhizocam
     ```
 
