@@ -72,8 +72,8 @@ Make sure you have the following installed on your system:
 
 1.  **Clone the repository**
     ```sh
-    git clone [https://github.com/ArianHaghtalab/RhizoCam.git](https://github.com/ArianHaghtalab/RhizoCam.git)
-    cd rhizocam
+    git clone https://github.com/ArianHaghtalab/RhizoCam.git
+    cd RhizoCam
     ```
 
 2.  **Set up the Backend**
@@ -143,3 +143,4 @@ Because this is a full-stack project, you must run the backend and frontend serv
 ## License
 
 This project is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License. You can place the full license text in a `LICENSE.txt` file.
+
