@@ -1,0 +1,40 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom color palette */
+:root {
+  --brand-cta: #FFA725;
+  --brand-bg: #FFFBF2;
+  --brand-bg-alt: #F8FBF8;
+  --brand-accent-light: #C1D8C3;
+  --brand-accent-dark: #6A9C89;
+  --brand-heading: #3A564F;
+  --brand-body: #4A5568;
+  --slate-200: #E2E8F0;
+  --slate-500: #64748B;
+  --slate-100: #F1F5F9;
+  --slate-400: #94A3B8;
+}
+
+/* Apply base styles */
+body {
+    background-color: var(--brand-bg);
+    color: var(--brand-body);
+    font-family: sans-serif; /* Example font */
+}
+
+/* Component color classes */
+.bg-brand-bg { background-color: var(--brand-bg); }
+.bg-brand-bg-alt { background-color: var(--brand-bg-alt); }
+.bg-brand-accent-light { background-color: var(--brand-accent-light); }
+.bg-brand-accent-dark { background-color: var(--brand-accent-dark); }
+.bg-brand-cta { background-color: var(--brand-cta); }
+.text-brand-heading { color: var(--brand-heading); }
+.text-brand-body { color: var(--brand-body); }
+.border-slate-200 { border-color: var(--slate-200); }
+.text-slate-500 { color: var(--slate-500); }
+.border-slate-100 { border-color: var(--slate-100); }
+.text-slate-400 { color: var(--slate-400); }
+.text-slate-200 { color: var(--slate-200); }

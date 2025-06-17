@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#FFFBF2" />
+    <meta
+        name="description"
+        content="RhizoCam - Traverse biological literature to identify research gaps and generate new discovery directions"
+    />
+    <title>RhizoCam - Research Discovery Assistant</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+
+    
+    <!-- Favicons -->
+    <link rel="icon" href="%PUBLIC_URL%/favicon.svg" />
+    <link rel="apple-touch-icon" sizes="180x180" href="%PUBLIC_URL%/favicon.svg">
+    <link rel="icon" type="image/png" sizes="32x32" href="%PUBLIC_URL%/favicon.svg">
+    <link rel="icon" type="image/png" sizes="16x16" href="%PUBLIC_URL%/favicon.svg">
+    <link rel="manifest" href="%PUBLIC_URL%/site.webmanifest">
+    
+    <style>
+        :root {
+            --brand-cta: #FFA725;
+            --brand-bg: #FFFBF2;
+            --brand-bg-alt: #F8FBF8;
+            --brand-accent-light: #C1D8C3;
+            --brand-accent-dark: #6A9C89;
+            --brand-heading: #3A564F;
+            --brand-body: #4A5568;
+            --slate-200: #E2E8F0;
+            --slate-500: #64748B;
+            --slate-100: #F1F5F9;
+            --slate-400: #94A3B8;
+        }
+        
+        body {
+            margin: 0;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+                'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+                sans-serif;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            background-color: var(--brand-bg);
+            color: var(--brand-body);
+        }
+        
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Merriweather', serif;
+            color: var(--brand-heading);
+        }
+        
+        /* Root name animation */
+        @keyframes root-pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+        
+        .root-name {
+            animation: root-pulse 2s infinite;
+        }
+        
+        /* Scrollbar styling */
+        ::-webkit-scrollbar {
+            width: 8px;
+            height: 8px;
+        }
+        
+        ::-webkit-scrollbar-track {
+            background: var(--slate-100);
+            border-radius: 4px;
+        }
+        
+        ::-webkit-scrollbar-thumb {
+            background: var(--brand-accent-light);
+            border-radius: 4px;
+        }
+        
+        ::-webkit-scrollbar-thumb:hover {
+            background: var(--brand-accent-dark);
+        }
+    </style>
+</head>
+<body class="bg-brand-bg">
+    <!-- Root container for React app -->
+    <noscript>You need to enable JavaScript to run RhizoCam.</noscript>
+    <div id="root"></div>
+    <!-- Loading skeleton removed from here -->
+</body>
+</html>
